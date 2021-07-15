@@ -1,4 +1,4 @@
-![css-to-scss logo](https://raw.githubusercontent.com/Firebrand/goforth/main/logo.png)
+![css-to-scss logo](https://raw.githubusercontent.com/Firebrand/sentynel/main/logo.png)
 
 # Sentynel
 A CLI tool that crawls your site & produces a report with all snapshots of a specific element/component on that site, including diffs with a prod environment. **Perfect for simple & effective frontend QA.**

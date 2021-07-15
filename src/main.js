@@ -218,7 +218,7 @@ async function generateHtmlReport() {
         </style>
       </head>
       <body>
-        <img src="https://raw.githubusercontent.com/Firebrand/goforth/main/logo.png"/>
+        <img src="https://raw.githubusercontent.com/Firebrand/sentynel/main/logo.png"/>
         <h1><span style="color: #2F4048">${options.site} > ${options.selector} (${month}/${day}/${year} ${hours}:${minutes})</span></h1>
         ${imagesHtml}
       </body>
