@@ -1,0 +1,48 @@
+{
+  "name": "sentynel",
+  "version": "1.1.5",
+  "description": "A CLI tool that crawls your site & produces a report with all snapshots of a specific element/component on that site, including diffs with a prod environment",
+  "main": "src/index.js",
+  "bin": "bin/sentynel",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "qa",
+    "quality",
+    "validation",
+    "regression",
+    "testing",
+    "crawl",
+    "reporting",
+    "diff",
+    "screen capture"
+  ],
+  "author": "Alex Tsirozidis <saltypickles@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "chalk": "^2.4.2",
+    "cli-progress": "^3.9.0",
+    "commander": "^8.0.0",
+    "esm": "^3.2.18",
+    "inquirer": "^6.2.2",
+    "linkedom": "^0.11.0",
+    "merge-options": "^3.0.4",
+    "odiff-bin": "^2.4.2",
+    "open": "^8.2.1",
+    "puppeteer": "^10.1.0",
+    "superagent": "^6.1.0",
+    "superagent-proxy": "^2.1.0",
+    "yaml": "^1.10.2"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
+}
